@@ -12,7 +12,7 @@ app.use(express.json()) //helper lib tht vll automatically parse information ass
 app.use(authRoutes);
 app.use(trackRoutes);
 
-const mongoUri = 'mongodb+srv://jaahnvi:passwordpassword@cluster0.miytb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const mongoUri = 'mongodb+srv://jaahnvi:password@cluster0.miytb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
